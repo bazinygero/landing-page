@@ -1,0 +1,149 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1f2937;
+}
+
+#first-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 50px 0 100px;
+
+}
+
+#third-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+#fourth-block {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#footer {
+    text-align: center;
+    background-color: #1f2937;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-element {
+    max-width: 150px;
+    padding: 0 20px 0 20px;
+}
+
+.title-text{
+    max-width: 500px;
+    margin: 0 50px 10px 10px;
+}
+
+.cta-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #3882f6;
+    padding: 50px;
+}
+
+.cta-info {
+    margin-right: 50px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-self: first baseline;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: auto 20px auto 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin: 0;
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+p.quote {
+    max-width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+p.subtext {
+    color: #1f2937;
+}
+
+p.cta-text {
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px 40px 10px 40px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8 ;
+    margin: 15px;
+}
+
+img {
+    background-color: grey;
+    color: #f9faf8;
+}
+
+img.secondary {
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3882f6;
+    background-color: white;
+}
+
+button.cta {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f9faf8;
+}
