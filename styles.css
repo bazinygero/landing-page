@@ -75,6 +75,10 @@ li {
     margin: auto 20px auto 20px;
 }
 
+li:hover {
+    cursor: pointer;
+}
+
 h1 {
     font-size: 48px;
     color: #f9faf8;
@@ -121,6 +125,11 @@ button {
     padding: 10px 40px 10px 40px;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+button:hover {
+    background-color: #e5e7eb;
+    color: #3882f6;
 }
 
 .logo {
